@@ -15,5 +15,4 @@ for n in num_1:
     l = l + [num_2[n]+' — '+ str(n)]
 print(l)
 
-with open("my_f_4_1.txt", 'w+', encoding='UTF8') as f_ob:
-    print (l, file = f_ob)
+print (l, file = f_ob)
